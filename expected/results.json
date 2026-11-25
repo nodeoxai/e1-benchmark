@@ -1,0 +1,92 @@
+{
+  "scaling": {
+    "same_datacenter": {
+      "baseline_seconds": 893.143,
+      "points": [
+        {
+          "gpus": 1,
+          "round_seconds": 893.143,
+          "speedup": 1.0,
+          "efficiency": 1.0
+        },
+        {
+          "gpus": 8,
+          "round_seconds": 128.266,
+          "speedup": 6.96320926823944,
+          "efficiency": 0.87040115852993
+        },
+        {
+          "gpus": 16,
+          "round_seconds": 79.732,
+          "speedup": 11.201813575477852,
+          "efficiency": 0.7001133484673657
+        }
+      ]
+    },
+    "coordinator_germany": {
+      "baseline_seconds": 906.67,
+      "night1": [
+        {
+          "gpus": 1,
+          "round_seconds": 906.67,
+          "speedup": 1.0,
+          "efficiency": 1.0
+        },
+        {
+          "gpus": 2,
+          "round_seconds": 463.097,
+          "speedup": 1.957840366057219,
+          "efficiency": 0.9789201830286095
+        },
+        {
+          "gpus": 4,
+          "round_seconds": 233.057,
+          "speedup": 3.890335840588354,
+          "efficiency": 0.9725839601470885
+        },
+        {
+          "gpus": 8,
+          "round_seconds": 130.536,
+          "speedup": 6.945746767175338,
+          "efficiency": 0.8682183458969173
+        },
+        {
+          "gpus": 16,
+          "round_seconds": 84.169,
+          "speedup": 10.772018201475603,
+          "efficiency": 0.6732511375922252
+        }
+      ],
+      "night2": [
+        {
+          "gpus": 8,
+          "round_seconds": 131.602,
+          "speedup": 6.889484962234616,
+          "efficiency": 0.861185620279327
+        },
+        {
+          "gpus": 16,
+          "round_seconds": 94.066,
+          "speedup": 9.6386579635575,
+          "efficiency": 0.6024161227223438
+        }
+      ]
+    },
+    "same_datacenter_16_vs_night1_baseline": {
+      "gpus": 16,
+      "round_seconds": 79.732,
+      "speedup": 11.371469422565594,
+      "efficiency": 0.7107168389103496
+    }
+  },
+  "mixed_vendor_accuracy": {
+    "control_a_percent": 93.40419732897247,
+    "control_b_percent": 93.51321886072499,
+    "mixed_percent": 93.0771327337149,
+    "controls_mean_percent": 93.45870809484873,
+    "gap_pp": 0.3815753611338266,
+    "tolerance_pp": 0.5,
+    "within_tolerance": true,
+    "controls_at_least_90_percent": true
+  }
+}

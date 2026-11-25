@@ -1,0 +1,14 @@
+path,sha256,events,date_utc,gpus,gpu_models,coordinator,used_for
+data/coordinator-germany/night1-a40x01.jsonl,ef6dc78812d2c44acf29a790ed5bbfa4563e8b2bd77b551db1ff89e050e395c8,6,2026-10-13,1,1 x NVIDIA A40,Germany (over the internet),1-GPU baseline of night 1
+data/coordinator-germany/night1-a40x02.jsonl,ee6c7d8e948ecc4bd41d86f3ef2ba4cb1cdec9fc626f6d996fa4ccbf93d17e07,6,2026-10-14,2,2 x NVIDIA A40,Germany (over the internet),night-1 scaling at 2 GPUs
+data/coordinator-germany/night1-a40x04.jsonl,56994d98fdfd966151c5ea62d356648df2ffcf5df1b666d829d3ca7ebda75d6e,6,2026-10-13,4,4 x NVIDIA A40,Germany (over the internet),night-1 scaling at 4 GPUs
+data/coordinator-germany/night1-a40x08.jsonl,dc3183b832239e81282ec56a18e93fedce87b347a15ba34b685ce8454c831a04,6,2026-10-14,8,8 x NVIDIA A40,Germany (over the internet),night-1 scaling at 8 GPUs; started from a copy of the original weights (see data/README.md)
+data/coordinator-germany/night1-a40x16.jsonl,293c8800c77df7b8634af83cc9f784a79732adfb85b14b87a26cd6e8028da9d7,6,2026-10-14,16,16 x NVIDIA A40,Germany (over the internet),night-1 scaling at 16 GPUs (67.3%)
+data/coordinator-germany/night2-a40x08.jsonl,e7d42b318e103187cb52efaca341a6fb70fc82075ed857e06786d2faf9e9247c,6,2026-10-16,8,8 x NVIDIA A40,Germany (over the internet),night-2 scaling at 8 GPUs
+data/coordinator-germany/night2-a40x16.jsonl,e18b900af8002286296f795f78f72bdc1781ee2e98a8e58adda3b8671086320f,6,2026-10-16,16,16 x NVIDIA A40,Germany (over the internet),night-2 scaling at 16 GPUs (60.2%); round phases
+data/mixed-vendor/control-a.jsonl,a6ce0f74ad7cc5aa0bef6825757d3771e9b263e96c7f69ceab26c0150f92ca75,10,2026-10-14,3,3 x NVIDIA A40,Germany (over the internet),"NVIDIA-only control A, final accuracy"
+data/mixed-vendor/control-b.jsonl,555a7b9c87ddb25faa3f1b40c72ef9e976cd6f666f432e1075236604d94eb5f3,10,2026-10-14,3,3 x NVIDIA A40,Germany (over the internet),"NVIDIA-only control B, final accuracy"
+data/mixed-vendor/mixed.jsonl,040548b7a2827549a51e5cf0f9f38cdf8c7b33b44d73dad5e8f480de7cbd0fe6,10,2026-10-14,3,1 x NVIDIA GeForce RTX 4090 + 1 x NVIDIA A40 + 1 x AMD Instinct MI300X VF,Germany (over the internet),"mixed-vendor run, final accuracy; gap from the controls"
+data/same-datacenter/a40x01.jsonl,9b7a2eef5e6164d4937b195c05f4217bcef0809036b0e8301a15037b7425106a,4,2026-10-16,1,1 x NVIDIA A40,inside the GPUs' datacenter,1-GPU baseline of the same-site scaling result (one measured round)
+data/same-datacenter/a40x08.jsonl,2d0f391dfdb9c94368b6b908b79acf4a174c3d94574a0c4e8aba4a0a1565b5d9,6,2026-10-16,8,8 x NVIDIA A40,inside the GPUs' datacenter,same-site scaling at 8 GPUs
+data/same-datacenter/a40x16.jsonl,57984c32139e1e047fdf390800d514f45f75968e6f207c82823618a1128ab417,6,2026-10-16,16,16 x NVIDIA A40,inside the GPUs' datacenter,"same-site scaling at 16 GPUs (11.2x, 70%); round phases"

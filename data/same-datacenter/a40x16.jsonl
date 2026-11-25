@@ -1,0 +1,6 @@
+{"event":"run_start","config":{"num_rounds":4}}
+{"event":"round_end","round":1,"seconds":78.653}
+{"event":"round_end","round":2,"seconds":80.662}
+{"event":"round_end","round":3,"seconds":79.732}
+{"event":"round_end","round":4,"seconds":66.96}
+{"event":"evaluation","status":"complete","samples":3669,"metrics":{"accuracy":0.9043336058871627,"samples":3669}}

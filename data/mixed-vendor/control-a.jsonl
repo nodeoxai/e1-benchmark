@@ -1,0 +1,10 @@
+{"event":"run_start","config":{"num_rounds":8}}
+{"event":"round_end","round":1,"seconds":52.482}
+{"event":"round_end","round":2,"seconds":47.185}
+{"event":"round_end","round":3,"seconds":37.575}
+{"event":"round_end","round":4,"seconds":35.52}
+{"event":"round_end","round":5,"seconds":60.753}
+{"event":"round_end","round":6,"seconds":41.148}
+{"event":"round_end","round":7,"seconds":36.483}
+{"event":"round_end","round":8,"seconds":30.438}
+{"event":"evaluation","status":"complete","samples":3669,"metrics":{"accuracy":0.9340419732897247,"samples":3669}}
